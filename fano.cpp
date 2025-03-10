@@ -103,10 +103,9 @@ void encoder(ifstream & in, ofstream & out)
         vector<vector<int>> newIndexSets;
         vector<int> bufferZero;
         vector<int> bufferOne;
-        bool allOnes = false;
         int onesCounter;
         int newOnesCounter;
-        while (!allOnes)
+        while (true)
         {
             onesCounter = 0;
             newOnesCounter = 0;
