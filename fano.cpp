@@ -13,11 +13,6 @@ bool tabSort(const pair<vector<unsigned char>, int> & freqA, const pair<vector<u
     return freqA.second > freqB.second;
 }
 
-bool freqSort(const pair<vector<int>, int> & freqA, const pair<vector<int>, int> & freqB)
-{
-    return freqA.second > freqB.second;
-}
-
 vector<unsigned char> UTF8_Handler(ifstream & in, char & symbol)
 {
     unsigned char handler; vector<unsigned char> charSet; // основная идея: хранить байты UTF-8 в наборе char-объектов
